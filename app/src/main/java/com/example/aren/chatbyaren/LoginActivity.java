@@ -66,11 +66,7 @@ public class LoginActivity extends AppCompatActivity {
         mSocket.off("login", onLogin);
     }
 
-    /**
-     * Attempts to sign in the account specified by the login form.
-     * If there are form errors (invalid username, missing fields, etc.), the
-     * errors are presented and no actual login attempt is made.
-     */
+
     private void attemptLogin() {
         // Reset errors.
         mUsernameView.setError(null);

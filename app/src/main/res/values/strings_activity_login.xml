@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="title_activity_login">Join</string>
+    <string name="title_activity_login">Միանալ</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_username">What\'s your nickname?</string>
-    <string name="action_sign_in">Join</string>
+    <string name="prompt_username">Ի՞նչ է Ձեր անունը</string>
+    <string name="action_sign_in">Միանալ</string>
     <string name="action_sign_in_short">Join</string>
 
-    <string name="error_field_required">This field is required</string>
+    <string name="error_field_required">Այս դաշտը պարտադիր է</string>
 </resources>

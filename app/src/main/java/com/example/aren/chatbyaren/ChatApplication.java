@@ -12,7 +12,7 @@ public class ChatApplication extends Application {
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("http://192.168.1.103:3333/");
+            mSocket = IO.socket(Constants.CHAT_SERVER_URL);
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
